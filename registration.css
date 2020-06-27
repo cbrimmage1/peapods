@@ -85,7 +85,7 @@ input[type=submit] {
   width: 175px;
   height: 60px;
   background: #22c395;
-  border-radius: 10px;
+  border-radius: 30px;
   transition-duration: 0.4s;
   padding: 20px 50px;
   text-align: center;
