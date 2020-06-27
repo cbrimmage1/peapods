@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+
+/* Nav */
+
+.topnav {
+  position: relative;
+  top: 20px;
+  right: 10px;
+  overflow: hidden;
+  
+}
+
+/* Navbar links */
+.topnav a {
+  float: right;
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-family: 'Heebo', sans-serif;
+  font-size: 18px;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  color: black;
+}  
+
+/* Body */
+
+.square form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  height: 375px;
+}
+
+input[type=password] {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  background-color: lightgray;
+}
+
+input[type=email] {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  outline: none;
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  background-color: lightgray;
+  border: none;
+}
+
+input[type=submit] {
+  color: white;
+  width: 175px;
+  height: 60px;
+  background: #22c395;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  padding: 20px 50px;
+  text-align: center;
+  font-family: 'Heebo', sans-serif;
+  font-size: 18px;
+  margin: 10px 0;
+  border: none;
+}
+
+input[type=submit]:hover {
+  background: #38f786;
+}
+
+label {
+  font-family: 'Heebo', sans-serif;
+}
+
+.block {
+width: 100%;
+height: 700px;
+overflow: hidden;
+}
+
+.block h1 {
+  text-align: center;
+  font-family: 'Heebo', sans-serif;
+  color: black;
+  position: relative;
+  font-size: 80px;
+  top: -30px;
+}
+
+.block p {
+  text-align: center;
+  font-family: 'Heebo', sans-serif;
+  color: gray;
+  position: relative;
+  font-size: 30px;
+  bottom: 80px;
+}
+
+.block .square {
+  width: 700px;
+  height: 375px;
+  background-color: white;
+  position: relative;
+  bottom: 75px;
+  margin: 0 auto;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Circle */
+.circle1 {
+height: 150px;
+width: 150px;
+border-radius: 100%;
+background: rgb(34,195,149);
+background: linear-gradient(0deg, rgba(34,195,149,1) 0%, rgba(43,242,125,1) 100%);
+position: absolute;
+z-index: -1;
+left: 200px;
+top: -90px;
+}
+
+.circle2 {
+height: 175px;
+width: 175px;
+border-radius: 100%;
+background-color: #22c395;
+position: absolute;
+z-index: -1;
+top: 130px;
+left: 930px;
+}
+
+.circle3 {
+height: 250px;
+width: 250px;
+border-radius: 100%;
+background-color: #38f786;
+position: absolute;
+z-index: -1;
+top: 600px;
+left: 250px;
+}
+
+.circle4 {
+height: 250px;
+width: 250px;
+border-radius: 100%;
+background-color: #22c395;
+position: absolute;
+z-index: -1;
+top: 300px;
+left: -90px;
+}
+
+.circle5 {
+height: 300px;
+width: 300px;
+border-radius: 100%;
+background: rgb(34,195,149);
+background: linear-gradient(0deg, rgba(34,195,149,1) 0%, rgba(43,242,125,1) 100%);
+position: absolute;
+z-index: -1;
+top: 500px;
+left: 1100px;
+}
